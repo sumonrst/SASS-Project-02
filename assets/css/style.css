@@ -310,4 +310,30 @@ body {
   color: #fff;
   margin: 30px auto;
   max-width: 580px;
+}
+
+.blog_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.blog_area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.blog_title {
+  text-align: center;
+}
+
+.blog_title h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.blog_title p {
+  max-width: 600px;
+  margin: 30px auto;
 }/*# sourceMappingURL=style.css.map */
