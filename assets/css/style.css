@@ -97,14 +97,14 @@ body {
   text-decoration: none;
   text-transform: capitalize;
   color: #fff;
-  border: 2px solid #36c2ff;
-  background-color: #36c2ff;
+  border: 2px solid #e60090;
+  background-color: #e60090;
   padding: 15px 25px;
   border-radius: 10px;
 }
 .banner_area .banner_content .banner_btn:hover {
-  background-color: #31afe6;
-  border: 2px solid #31afe6;
+  background-color: #b30070;
+  border: 2px solid #b30070;
   transition: 0.5s;
 }
 
@@ -147,9 +147,9 @@ body {
   transition: 0.5s;
 }
 .single_promo_area .promo .single_promo i {
-  font-size: 38px;
+  font-size: 50px;
   margin-bottom: 20px;
-  color: #1DD4FE;
+  color: #5258a8;
 }
 .single_promo_area .promo .single_promo h2 {
   font-size: 22px;
@@ -182,7 +182,7 @@ body {
 }
 .about_area .about_image .image {
   border-radius: 63% 37% 30% 70%/50% 45% 55% 50%;
-  border: 16px solid #1DD4FE;
+  border: 16px solid #5258a8;
 }
 .about_area .about_content {
   float: right;
@@ -204,15 +204,15 @@ body {
           text-decoration: navajowhite;
   text-transform: capitalize;
   padding: 14px 20px;
-  border: 2px solid #1DD4FE;
+  border: 2px solid #5258a8;
   border-radius: 5px;
-  background-color: #1DD4FE;
+  background-color: #5258a8;
   color: #fff;
 }
 .about_area .about_content .about_btn:hover {
-  border: 2px solid #1DD4FE;
+  border: 2px solid #474d93;
   background-color: transparent;
-  color: #1DD4FE;
+  color: #474d93;
   transition: 0.5s;
 }
 
@@ -260,7 +260,7 @@ body {
 }
 .service_area .service .single_service .icon i {
   font-size: 34px;
-  color: #1DD4FE;
+  color: #474d93;
 }
 .service_area .service .single_service .service_content {
   float: right;
