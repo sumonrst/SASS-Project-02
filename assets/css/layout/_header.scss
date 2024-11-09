@@ -1,0 +1,34 @@
+
+.header_area{
+     background-color: #ddd;
+     padding-top: 25px;
+     padding-bottom: 75px;
+     .logo{
+        width: 200px;
+        float: left;
+        img {
+            width: 80px;
+          }
+    }
+    .menu {
+        float: right;
+        width: 766px;
+        margin-left: 30px;
+        ul{
+            text-align: right;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    font-size: 21px;
+                    text-transform: capitalize;
+                    margin-right: 29px;
+                    color: #333;
+                }
+            }
+        }
+      }
+
+}
+
+

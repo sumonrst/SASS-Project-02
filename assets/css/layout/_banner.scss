@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner_area:after {
+    clear: both;
+    display: table;
+    content: "";
+  }
+  .banner_area {
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+  }

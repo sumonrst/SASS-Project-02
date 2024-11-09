@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header_area {
+  background-color: #ddd;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+.header_area .logo {
+  width: 200px;
+  float: left;
+}
+.header_area .logo img {
+  width: 80px;
+}
+.header_area .menu {
+  float: right;
+  width: 766px;
+  margin-left: 30px;
+}
+.header_area .menu ul {
+  text-align: right;
+}
+.header_area .menu ul li {
+  display: inline-block;
+}
+.header_area .menu ul li a {
+  text-decoration: none;
+  font-size: 21px;
+  text-transform: capitalize;
+  margin-right: 29px;
+  color: #333;
+}
+
+.banner_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.banner_area {
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+}
+
+.single_promo_area {
+  background-color: #d7d7d7;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.single_promo_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.single_promo_area .promo .single_promo {
+  float: left;
+  width: 416px;
+  background-color: #fff;
+  padding: 66px;
+  margin-right: 36px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.single_promo_area .promo .single_promo:last-child {
+  margin-right: 0px;
+}
+.single_promo_area .promo .single_promo:hover {
+  background-color: #30C7FE;
+  transition: 0.5s;
+}
+.single_promo_area .promo .single_promo:hover h2 {
+  color: #fff;
+  transition: 0.5s;
+}
+.single_promo_area .promo .single_promo:hover p {
+  color: #fff;
+  transition: 0.5s;
+}
+.single_promo_area .promo .single_promo:hover i {
+  color: #fff;
+  transition: 0.5s;
+}
+.single_promo_area .promo .single_promo i {
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #1DD4FE;
+}
+.single_promo_area .promo .single_promo h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.single_promo_area .promo .single_promo p {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.about_area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.about_area .about_image {
+  float: left;
+  width: 477px;
+}
+.about_area .about_image:hover img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transition: 0.5s;
+}
+.about_area .about_image img {
+  width: 100%;
+}
+.about_area .about_image .image {
+  border-radius: 63% 37% 30% 70%/50% 45% 55% 50%;
+  border: 16px solid #1DD4FE;
+}
+.about_area .about_content {
+  float: right;
+  width: 600px;
+}
+.about_area .about_content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 49px;
+}
+.about_area .about_content p {
+  font-size: 16px;
+  margin-bottom: 36px;
+  line-height: 25px;
+}
+.about_area .about_content .about_btn {
+  -webkit-text-decoration: navajowhite;
+          text-decoration: navajowhite;
+  text-transform: capitalize;
+  padding: 14px 20px;
+  border: 2px solid #1DD4FE;
+  border-radius: 5px;
+  background-color: #1DD4FE;
+  color: #fff;
+}
+.about_area .about_content .about_btn:hover {
+  border: 2px solid #1DD4FE;
+  background-color: transparent;
+  color: #1DD4FE;
+  transition: 0.5s;
+}
+
+.service_area {
+  background-color: #F5F5F5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.service_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.service_area .service_title {
+  text-align: center;
+}
+.service_area .service_title h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.service_area .service_title p {
+  max-width: 751px;
+  margin: 30px auto;
+  font-size: 18px;
+  line-height: 30px;
+}
+.service_area .service {
+  margin-top: 50px;
+}
+.service_area .service .single_service {
+  width: 410px;
+  background-color: #fff;
+  padding: 43px 35px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.service_area .service .single_service:hover {
+  transition: 0.5s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.service_area .service .single_service .icon {
+  float: left;
+}
+.service_area .service .single_service .icon i {
+  font-size: 34px;
+  color: #1DD4FE;
+}
+.service_area .service .single_service .service_content {
+  float: right;
+  width: 288px;
+}
+.service_area .service .single_service .service_content h3 {
+  margin-bottom: 13px;
+}
+.service_area .service .single_service .service_content p {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.service_area .service .single_service .service_content .service_btn {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

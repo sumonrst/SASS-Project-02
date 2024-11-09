@@ -1,0 +1,56 @@
+
+.single_promo_area {
+    background-color: #d7d7d7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &:after {
+        clear: both;
+        display: table;
+        content: "";
+    }
+    .promo{
+        .single_promo {
+            float: left;
+            width: 416px;
+            background-color: #fff;
+            padding: 66px;
+            margin-right: 36px;
+            border-radius: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            &:hover {
+                background-color: #30C7FE;
+                transition: .5s;
+            }
+            &:hover h2 {
+                color: #fff;
+                transition: .5s;
+            }
+            &:hover p {
+                color: #fff;
+                transition: .5s;
+            }
+            &:hover i {
+                color: #fff;
+                transition: .5s;
+            }
+            i {
+                font-size: 38px;
+                margin-bottom: 20px;
+                color: #1DD4FE;
+            }
+            h2 {
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 23px;
+                
+            }
+        }
+    }
+}
+
