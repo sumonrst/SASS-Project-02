@@ -3,6 +3,16 @@
   background-position: center;
   height: 70vh;
   position: relative;
+  &.gradient_right_color:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,76,144,0.006039915966386533) 75%, rgba(255,255,255,1) 100%);
+  }
   &:after {
     clear: both;
     display: table;
@@ -13,10 +23,13 @@
     width: 710px;
     float: left;
     margin-top: 192px;
+    position:absolute;
+    z-index: 10 !important;
     h3 {
       color: #fff;
       font-size: 25px;
       margin-bottom: 15px;
+      text-transform: capitalize;
     }
     h2 {
       font-size: 57px;
@@ -46,6 +59,12 @@
     }
   }
 }
+
+
+
+
+
+
 
 
 

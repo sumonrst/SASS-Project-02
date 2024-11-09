@@ -53,6 +53,16 @@ body {
   height: 70vh;
   position: relative;
 }
+.banner_area.gradient_right_color:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(59, 76, 144, 0.006039916) 75%, rgb(255, 255, 255) 100%);
+}
 .banner_area:after {
   clear: both;
   display: table;
@@ -62,11 +72,14 @@ body {
   width: 710px;
   float: left;
   margin-top: 192px;
+  position: absolute;
+  z-index: 10 !important;
 }
 .banner_area .banner_content h3 {
   color: #fff;
   font-size: 25px;
   margin-bottom: 15px;
+  text-transform: capitalize;
 }
 .banner_area .banner_content h2 {
   font-size: 57px;
