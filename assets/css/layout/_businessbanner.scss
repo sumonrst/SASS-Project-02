@@ -1,4 +1,7 @@
 .business_banner_area{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     &:after {
         clear: both;
         display: table;
@@ -10,8 +13,8 @@
         height: 100%;
         bottom: 0px !important;
         overflow: auto;
-        padding-top: 100px;
-        padding-bottom: 100;
+        padding-top: 140px;
+        padding-bottom: 100px;
         opacity: .75;
     }
     // business banner conten

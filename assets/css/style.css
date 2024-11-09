@@ -279,6 +279,11 @@ body {
   color: #000;
 }
 
+.business_banner_area {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
 .business_banner_area:after {
   clear: both;
   display: table;
@@ -290,8 +295,8 @@ body {
   height: 100%;
   bottom: 0px !important;
   overflow: auto;
-  padding-top: 100px;
-  padding-bottom: 100;
+  padding-top: 140px;
+  padding-bottom: 100px;
   opacity: 0.75;
 }
 .business_banner_area .business_banner_content {
