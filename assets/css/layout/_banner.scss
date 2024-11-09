@@ -1,27 +1,52 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.banner_area:after {
+.banner_area {
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+  &:after {
     clear: both;
     display: table;
     content: "";
   }
-  .banner_area {
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    position: relative;
+  // Banner content section
+  .banner_content {
+    width: 710px;
+    float: left;
+    margin-top: 192px;
+    h3 {
+      color: #fff;
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 57px;
+      line-height: 61px;
+      margin-bottom: 15px;
+      color: #fff;
+      font-weight: 700;
+    }
+    p {
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    .banner_btn {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: #fff;
+      border: 2px solid #36c2ff;
+      background-color: #36c2ff;
+      padding: 15px 25px;
+      border-radius: 10px;
+      &:hover {
+        background-color: #31afe6;
+        border: 2px solid #31afe6;
+        transition: .5s;
+      }
+    }
   }
+}
+
+
+
+
