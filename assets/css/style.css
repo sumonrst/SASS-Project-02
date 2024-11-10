@@ -419,6 +419,7 @@ body {
 }
 .team_area p {
   text-align: center;
+  font-size: 14px;
 }
 .team_area .time_title {
   text-align: center;
@@ -484,4 +485,25 @@ body {
 .team_area .team .single_team .team_social ul li a:hover {
   color: #df50ac;
   transition: 0.5s;
+}
+
+.clients_area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.clients_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.clients_area .client_title {
+  text-align: center;
+}
+.clients_area .client_title h2 {
+  font-size: 40px;
+}
+.clients_area .client_title p {
+  max-width: 696px;
+  margin: 30px auto;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

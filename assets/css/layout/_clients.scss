@@ -1,0 +1,42 @@
+
+.clients_area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &:after {
+        clear: both;
+        display: table;
+        content: "";
+    }
+    // client title area
+    .client_title {
+        text-align: center;
+        h2 {
+            font-size: 40px;
+        }
+        p {
+            max-width: 696px;
+            margin: 30px auto;
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
