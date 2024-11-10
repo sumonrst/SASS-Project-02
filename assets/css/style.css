@@ -405,4 +405,61 @@ body {
   color: #000 !important;
   font-size: 16px !important;
   text-transform: capitalize !important;
+}
+
+.team_area {
+  background-color: #F5F5F5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.team_area:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.team_area .time_title {
+  text-align: center;
+}
+.team_area .time_title h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.team_area .time_title p {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.team_area .team .single_team {
+  float: left;
+  width: 420px;
+  margin-right: 30px;
+  background-color: #fff;
+  padding: 64px 50px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.team_area .team .single_team:last-child {
+  margin-right: 0;
+}
+.team_area .team .single_team .team_image {
+  text-align: center;
+}
+.team_area .team .single_team .team_image img {
+  width: 121px;
+  border-radius: 50%;
+  border: 6px solid #ddd;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.team_area .team .single_team .team_desig {
+  text-align: center;
+  margin-top: 20px;
+}
+.team_area .team .single_team .team_desig h3 {
+  font-size: 20px;
+}
+.team_area .team .single_team .team_desig h3 span {
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
