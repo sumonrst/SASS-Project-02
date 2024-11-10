@@ -506,4 +506,89 @@ body {
   max-width: 696px;
   margin: 30px auto;
   font-size: 18px;
+}
+
+.single_client:last-child {
+  margin-right: 0;
+}
+
+.single_client {
+  float: left;
+  width: 645px;
+  padding: 54px 52px;
+  background-color: #F5F5F5;
+  margin-right: 30px;
+  border-radius: 28px;
+}
+
+.client_desig img {
+  width: 50px;
+  border-radius: 500%;
+  border: 4px solid #fff;
+}
+
+.client_name h2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.client_name h2 span {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.client_desig {
+  width: 271px;
+  display: table;
+  clear: both;
+  padding-left: 8px;
+}
+
+.client_name {
+  margin-left: 63px;
+  margin-top: -53px;
+}
+
+.client_rating {
+  float: right;
+  width: 197px;
+  margin-top: -55px;
+}
+
+.client_rating ul li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+  color: #F5B759;
+}
+
+.client_icon i {
+  font-size: 56px;
+  color: #D1D3E0;
+  margin-bottom: 20px;
+}
+
+.client_info {
+  margin-top: 24px;
+}
+
+.client_rating span {
+  /*! padding: 10px; */
+  /*! float: left; */
+  color: #000;
+  /*! text-align: left !important; */
+}
+
+.client_rating span span {
+  margin-left: 13px;
+}
+
+.client_text {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.client {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
