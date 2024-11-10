@@ -29,8 +29,13 @@
             margin-right: 34px;
             border: 1px solid #ddd;
             border-radius: 10px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             &:last-child {
                 margin-right: 0;
+            }
+            &:hover {
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                transition: .5s;
             }
             .blog_overfollow_image img {
                 width: 100%;
@@ -85,9 +90,9 @@
                         text-decoration: none;
                     }
                     .blog_btn {
-                        font-size: 16px;
-                        text-transform: capitalize;
-                        color: #474D93;
+                        color: #000 !important;
+                        font-size: 16px !important;
+                        text-transform: capitalize !important;
                     }
                 }
             }
