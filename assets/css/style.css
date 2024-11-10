@@ -417,6 +417,9 @@ body {
   display: table;
   content: "";
 }
+.team_area p {
+  text-align: center;
+}
 .team_area .time_title {
   text-align: center;
 }
@@ -462,4 +465,23 @@ body {
   font-size: 15px;
   font-weight: normal;
   margin-top: 10px;
+}
+.team_area .team .single_team .team_social {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.team_area .team .single_team .team_social ul {
+  text-align: center;
+}
+.team_area .team .single_team .team_social ul li {
+  display: inline-block;
+  padding: 9px;
+  font-size: 18px;
+}
+.team_area .team .single_team .team_social ul li a {
+  color: #474D93;
+}
+.team_area .team .single_team .team_social ul li a:hover {
+  color: #df50ac;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
