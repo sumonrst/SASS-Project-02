@@ -333,6 +333,9 @@ body {
   max-width: 600px;
   margin: 30px auto;
 }
+.blog_area .blog {
+  margin-top: 50px;
+}
 .blog_area .blog .single_blog {
   width: 417px;
   float: left;
@@ -351,9 +354,26 @@ body {
 .blog_area .blog .single_blog .blog_content_area {
   padding: 26px 20px;
 }
-.blog_area .blog .single_blog .blog_content_area .blog_author img {
+.blog_area .blog .single_blog .blog_content_area .blog_author .author_info {
+  width: 106px;
+}
+.blog_area .blog .single_blog .blog_content_area .blog_author .author_info img {
   width: 34px;
   border-radius: 50%;
+  border: 1px solid #474D93;
+  padding: 3px;
+}
+.blog_area .blog .single_blog .blog_content_area .blog_author .author_info .author_name {
+  color: #000;
+}
+.blog_area .blog .single_blog .blog_content_area .blog_author .post_date {
+  width: 122px;
+  float: right;
+  margin: 0 auto;
+  margin-top: -39px;
+}
+.blog_area .blog .single_blog .blog_content_area .blog_author .post_date i {
+  margin-top: 12px;
 }
 .blog_area .blog .single_blog .blog_content_area .blog_author span {
   font-size: 13px;

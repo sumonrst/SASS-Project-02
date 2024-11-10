@@ -22,6 +22,7 @@
     }
     // single blog start
     .blog{
+        margin-top:50px;
         .single_blog {
             width: 417px;
             float: left;
@@ -39,10 +40,28 @@
             .blog_content_area {
                 padding: 26px 20px;
                 .blog_author{
-                    img {
-                        width: 34px;
-                        border-radius: 50%;
+                    .author_info{
+                        width: 106px;
+                        img {
+                            width: 34px;
+                            border-radius: 50%;
+                            border: 1px solid #474D93;
+                            padding: 3px;
+                        }
+                        .author_name {
+                            color: #000;
+                        }
                     }
+                    .post_date {
+                        width: 122px;
+                        float: right;
+                        margin: 0 auto;
+                        margin-top: -39px;
+                        i {
+                            margin-top: 12px;
+                        }
+                    }
+                    
                     span {
                         font-size: 13px;
                         text-decoration: none aliceblue !important;
