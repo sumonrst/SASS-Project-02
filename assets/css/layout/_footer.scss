@@ -20,7 +20,7 @@
   }
   .footer_area {
     padding-top: 100px;
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
     background-color: #474d93;
   }
   .single_widget img {
@@ -76,13 +76,13 @@
     display: table;
     margin-bottom: 74px;
   }
-//   .footer_copyright {
-//     text-align: center;
-//     background-color:tomato;
-//     border-top: 1px solid #9194be;
-//   }
+  .footer_copyright {
+	text-align: center;
+	background-color: #474D93;
+	border-top: 1px solid #9194be;
+	padding: 27px;
+}
 
-//   .footer_copyright p {
-// 	margin-top: 38px;
-//     color: #fff;
-// }
+  .footer_copyright p {
+    color: #fff;
+}

@@ -640,7 +640,6 @@ body {
 
 .footer_area {
   padding-top: 100px;
-  padding-bottom: 100px;
   background-color: #474d93;
 }
 
@@ -705,4 +704,15 @@ body {
   clear: both;
   display: table;
   margin-bottom: 74px;
+}
+
+.footer_copyright {
+  text-align: center;
+  background-color: #474D93;
+  border-top: 1px solid #9194be;
+  padding: 27px;
+}
+
+.footer_copyright p {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
