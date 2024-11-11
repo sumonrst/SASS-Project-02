@@ -1,0 +1,44 @@
+
+.footer_cta_area {
+  padding-top: 68px;
+  padding-bottom: 65px;
+  background-color: #F5F5F5;
+  &:after {
+    clear: both;
+    display: table;
+    content: "";
+  }
+  // footer area title
+  .footer_cta_title {
+    float: left;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #5c5c5c;
+    }
+  }
+  // footer cta btn area
+  .cta_btn {
+    float: right;
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+      font-size: 17px;
+      text-transform: capitalize;
+      background-color: #474D93;
+      color: #fff;
+      padding: 11px 32px;
+      border-radius: 5px;
+      border: 1px solid #474D93;
+      &:hover {
+        background-color: #323667;
+        transition: .5s;
+      }
+    }
+  }
+}
+
+
+
